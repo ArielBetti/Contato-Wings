@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+	/*background-color: #0c0c0c!important;*/
+	font-family: 'Comfortaa', cursive !important;
+	background-image: url('../img/forest.jpg');
+	background-repeat:no-repeat;
+	background-size:auto;
+	background-position:center;
+	height: 100%;
+}
+
+.ent{
+	color: white;
+    border: 1px solid white;
+    box-shadow: 0px 1px 6px #05cffc;
+    background-color: #f70264;
+    transition: 1.0s;
+    background: linear-gradient(6deg,#056cfc,#2105fc,#05fce3)!important; /*Change colors as you want*/
+    background-size: 1000% 1000% !important;
+}
+.ent:hover{
+	color: white;
+    border: 1px solid white;
+    box-shadow: 0px 1px 6px #05fcae;
+    background-color: #f70264;
+    background: linear-gradient(6deg,#a9fc05,#2afc05,#fc0563)!important; /*Change colors as you want*/
+    background-size: 1000% 1000% !important;
+    transition: 1.3s;
+}
+
+.cad{
+	color: white;
+    border: 1px solid white;
+    box-shadow: 0px 1px 6px #05cffc;
+    background-color: #f70264;
+    transition: 1.0s;
+    background: linear-gradient(6deg,#056cfc,#2105fc,#05fce3)!important; /*Change colors as you want*/
+    background-size: 1000% 1000% !important;
+}
+.cad:hover{
+	color: white;
+    border: 1px solid white;
+    box-shadow: 0px 1px 6px #05cffc;
+    background-color: #f70264;
+    transition: 1.0s;
+    background: linear-gradient(6deg,#9d05fc,#7405fc,#ebfc05)!important; /*Change colors as you want*/
+    background-size: 1000% 1000% !important;
+}
+
+.pac{
+	font-family: 'Pacifico', cursive;
+}
+
+.ifa{
+	margin: 20px 0;
+	background:  rgba(0, 0, 0, 0) !important;
+	border: none;
+	border-bottom: 1px solid white;
+}
+
+.efeito{
+	
+}
+.efeito:hover{
+	transition: 0.5s;
+	text-shadow: 0px 1px 4px #fcfcfc;
+}
+
+.ifa:hover{
+	transition: 1.2s;
+	text-shadow: 0px 1px 3px #05cffc;
+}
+
+.ideias{
+	height: 150px !important;
+	background: rgba(0, 0, 0, 0) !important;
+}
+
+.enviar{
+	border: 1px solid white !important;
+	background: rgba(0, 0, 0, 0) !important;
+	color: #fff;
+}
+
+.ideias:hover{
+	transition: 1.0s;
+	box-shadow: 0px 1px 6px #05cffc!important;
+}
+
+.enviar:hover{
+	color: white;
+    border: 1px solid white;
+    box-shadow: 0px 1px 6px #05cffc;
+    background-color: #f70264;
+    transition: 1.0s;
+    background: linear-gradient(6deg,#056cfc,#2105fc,#05fce3)!important; /*Change colors as you want*/
+    background-size: 1000% 1000% !important;
+
+}
+
+/*Social midia buttons */
+.wp{
+	border: 1px solid white;
+    list-style: none;   
+    font-size: 25px;
+    color: #fff;
+    padding: 25px 25px;
+    transition: .5s;
+    border-radius: 60%;   
+}
+
+.gh{
+	border: 1px solid white;
+    list-style: none;   
+    font-size: 25px;
+    color: #fff;
+    padding: 25px 25px;
+    transition: .5s;
+    border-radius: 60%;   
+}
+
+.fb{
+	border: 1px solid white;
+    list-style: none;   
+    font-size: 25px;
+    color: #fff;
+    padding: 25px 25px;
+    transition: .5s;
+    border-radius: 60%;   
+}
+
+.fb:hover{
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0px 1px 6px #0f7dfc;
+    background-color: #0f7dfc;
+    transition: 0.70s;
+}
+
+.gh:hover{
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0px 1px 6px #7405fc;
+    transition: 0.70s;
+    background: linear-gradient(20deg,#9d05fc,#7405fc,#ebfc05); /*Change colors as you want*/
+    background-size: 1000% 1000% !important;
+}
+
+.wp:hover{
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0px 1px 6px #02f938;
+    transition: 0.70s;
+    background: linear-gradient(20deg,#15f709,#04f731,#04f78e); /*Change colors as you want*/
+    background-size: 1000% 1000% !important;
+}
